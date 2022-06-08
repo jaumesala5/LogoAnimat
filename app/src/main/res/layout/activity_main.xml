@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="Logos Animats + ToggleButton" />
+
+    <ImageView
+        android:id="@+id/avioneta"
+        android:layout_width="104dp"
+        android:layout_gravity="right"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/avioneta" />
+
+    <ImageView
+        android:id="@+id/pilota"
+        android:layout_width="100dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/pilota" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="" />
+
+
+    <ToggleButton
+        android:id="@+id/off"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/off"
+        android:textOff=""
+        android:textOn=""
+        android:layout_marginBottom="40dp"
+        android:layout_gravity="center"
+        android:onClick="onClick"/>
+</LinearLayout>
